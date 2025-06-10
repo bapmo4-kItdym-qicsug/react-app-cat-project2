@@ -16,6 +16,7 @@ function App() {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('');
 
+  //useEffect
   useEffect(() => {
     fetchBreeds().then(data => {
       setAllBreeds(data);
