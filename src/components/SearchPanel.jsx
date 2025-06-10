@@ -1,3 +1,4 @@
+// add component SearchPanel.jsx
 import React from 'react';
 
 const SearchPanel = ({ query, setQuery, category, setCategory, onSearch, onRandom }) => {
