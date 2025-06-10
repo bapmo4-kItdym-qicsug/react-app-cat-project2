@@ -7,6 +7,7 @@ import Pagination from './components/Pagination';
 
 const itemsPerPage = 9;
 
+//useState
 function App() { 
   const [allBreeds, setAllBreeds] = useState([]);
   const [filteredBreeds, setFilteredBreeds] = useState([]);
