@@ -1,3 +1,4 @@
+// Component BreedDetails.jsx
 import React from 'react';
 
 const BreedDetails = ({ breed, onBack }) => {
