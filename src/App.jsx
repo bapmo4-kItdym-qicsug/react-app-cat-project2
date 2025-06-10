@@ -53,6 +53,7 @@ function App() {
     setSelectedBreed(randomBreed);
   };
 
+  //useMemo
   const breedsToShow = useMemo(() => {
     const start = (currentPage - 1) * itemsPerPage;
     return filteredBreeds.slice(start, start + itemsPerPage);
