@@ -1,3 +1,4 @@
+// add component Pagination.jsx
 import React from 'react';
 
 const Pagination = ({ totalItems, itemsPerPage, currentPage, onPageChange }) => {
